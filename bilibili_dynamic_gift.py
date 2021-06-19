@@ -10,9 +10,10 @@ class Bili():
         self.sendurl = 'http://api.vc.bilibili.com/dynamic_repost/v1/dynamic_repost/repost'
         self.followurl = 'http://api.bilibili.com/x/relation/modify'
 
-        self.uid = ''
-        self.crsf = ''
-        self.cookie = {'Cookie': ''}
+        self.uid = '1706618732'
+        self.crsf = 'b60b078cb546adafc97e0a9aa221b03a'
+        self.cookie = {'Cookie': ' _uuid=768E37F2-76BD-0CC6-3692-75B484B0C29557129infoc; buvid3=85C2B21B-B05C-4EFA-B98F-5C915AF198D813440infoc; fingerprint=df1a490672911b0de6b9067cb5989a30; buvid_fp=DB1BB4F8-A969-4D24-ABC2-7677520117A3184997infoc; buvid_fp_plain=DB1BB4F8-A969-4D24-ABC2-7677520117A3184997infoc; SESSDATA=0fe09e1e%2C1639675432%2Cd2e1c%2A61; bili_jct=b60b078cb546adafc97e0a9aa221b03a; DedeUserID=1706618732; DedeUserID__ckMd5=566cdd518cab2a76; sid=7hdlhn99; bp_t_offset_1706618732=undefined; PVID=2; bp_video_offset_1706618732=538049944953990621
+'}
         self.header = {'User-Agent': ''}
 
     def get(self):
